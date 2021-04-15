@@ -1,23 +1,14 @@
-<h1 align=center>T3A12-Decisions-if-page.html</h1>
-<input id="myText01" type=text value=3><br>
-<input type=button value="Show X" onclink="{
-	x = document.getElmentById('myText01').value
-	myTemp = 'Nope'
-	if (x >=2){myTemp='yes you got it'}
-	document.getElementById('mySan01').innerHTML = myTemp
-}"><br>
-<span id="mySpan01">Try it out</span><br><br>
-<input id="myText02a" type=text value=3 >
-<input id="myText02b" type=text value+-7 ><br>
-<input type=button value="Decide X and Y" onclick="{
-	myx = document.getElementById('myText02a').value
-	myy = document.getElementById('myText02b').value
-	myTemp = 'nope'
-	if (myX > 2 &&myYZ < -4){
-		myTemp = 'x greater than 2 and Y less than -4'
-	}else{
-		myTemp = 'not'
-	}
-	document.getElementById('mySpan02').innerHTML = myTemp
-}"><br>
-<span id="mySpan02">Try it out</span><br><br>
+
+
+
+<h1 align=center>Ta03A12-decisions-if-page.html</h1>
+
+<input id="myText01" type=text value=3><br><br>
+<input type=button value="try this out" onclick="{ 
+	x = document.getElementById('myText01').value
+	myTemp = 'no sorry'
+	if (x >=2 ){myTemp = 'yes you got it'}
+	document.getElementById('mySpan01').innerHTML = myTemp
+}"><br><br></h1>
+<span id="mySpan01">...</span>
+
